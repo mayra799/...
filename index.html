@@ -5,66 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mari Empreiteira | Tabela de Preços</title>
     <style>
+        :root {
+            --azul-escuro: #0b1f4d;
+            --azul-claro: #1f6feb;
+            --laranja: #ff8a1c;
+            --verde: #18b37a;
+            --fundo: #eef6ff;
+            --branco: #ffffff;
+            --cinza: #5d6d7e;
+            --borda: #dfeaf5;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            color: #333;
+            background: linear-gradient(135deg, #eaf5ff 0%, #fef6ee 100%);
+            color: #1f2937;
             margin: 0;
             padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 860px;
             margin: 0 auto;
-            background: #fff;
+            background: var(--branco);
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 16px;
+            box-shadow: 0 12px 30px rgba(11, 31, 77, 0.12);
+            border: 1px solid var(--borda);
         }
         h1 {
-            color: #060027;
+            color: var(--azul-escuro);
             text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.3rem;
         }
         p.subtitle {
             text-align: center;
-            color: #6c757d;
+            color: var(--cinza);
+            font-size: 1.05rem;
+            margin-top: 0;
+        }
+        h2 {
+            color: var(--azul-escuro);
+            margin-top: 30px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 25px 0;
+            overflow: hidden;
+            border-radius: 12px;
         }
         th, td {
-            padding: 12px 15px;
-            border: 1px solid #dee2e6;
+            padding: 14px 15px;
+            border: 1px solid var(--borda);
             text-align: left;
         }
         th {
-            background-color: #060027;
+            background: linear-gradient(135deg, var(--azul-escuro), var(--azul-claro));
             color: white;
+            font-size: 0.96rem;
         }
         tr:nth-child(even) {
-            background-color: #f8f9fa;
+            background-color: #f5f9ff;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
         }
         .contact {
             text-align: center;
             margin-top: 30px;
-            padding: 20px;
-            background-color: #e9ecef;
-            border-radius: 6px;
+            padding: 24px 18px;
+            background: linear-gradient(135deg, #eaf9f3, #edf5ff);
+            border: 1px solid #d9efe6;
+            border-radius: 12px;
+        }
+        .contact h3 {
+            margin-top: 0;
+            color: var(--azul-escuro);
+            font-size: 1.5rem;
+        }
+        .contact p {
+            color: var(--cinza);
+            font-weight: 600;
         }
         .btn-whatsapp {
             display: inline-block;
-            background-color: #060027;
+            background: linear-gradient(135deg, var(--verde), #0fa869);
             color: white;
-            padding: 12px 24px;
+            padding: 14px 28px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 999px;
             font-weight: bold;
             margin-top: 10px;
+            box-shadow: 0 8px 18px rgba(24, 179, 122, 0.28);
         }
         @media (max-width: 600px) {
             .container {
                 padding: 20px 15px;
+            }
+            h1 {
+                font-size: 1.8rem;
             }
             th, td {
                 padding: 10px 8px;
@@ -92,22 +136,22 @@
             <tr>
                 <td><strong>Aplicação de Rejunte</strong></td>
                 <td>Pisos e azulejos novos</td>
-                <td>R$ 150,00 / m²</td>
+                <td>R$ 110,00 / m²</td>
             </tr>
             <tr>
                 <td><strong>Troca de Rejunte</strong></td>
                 <td>Remoção do antigo e aplicação de novo</td>
-                <td>R$ 250,00 / m²</td>
+                <td>R$ 180,00 / m²</td>
             </tr>
             <tr>
                 <td><strong>Limpeza Pós-Obra</strong></td>
                 <td>Remoção de tinta, cimento e sujeira pesada</td>
-                <td>R$ 150,00 / m²</td>
+                <td>R$ 100,00 / m²</td>
             </tr>
             <tr>
                 <td><strong>Limpeza Profunda</strong></td>
                 <td>Lavagem técnica de pisos e rejuntes velhos</td>
-                <td>R$ 200,00 / m²</td>
+                <td>R$ 140,00 / m²</td>
             </tr>
         </tbody>
     </table>
