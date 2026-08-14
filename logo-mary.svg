@@ -1,79 +1,85 @@
-<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Mary Empreiteira</title>
-  <desc id="desc">Logo circular da Mary Empreiteira com casa, capacete e ferramentas.</desc>
+  <desc id="desc">Logo circular estilizada da Mary Empreiteira com capacete, casa e ferramentas.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f5f3ee"/>
-      <stop offset="100%" stop-color="#f9f8f4"/>
+    <linearGradient id="paper" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f7f4f0"/>
+      <stop offset="100%" stop-color="#efefe9"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1">
+      <stop offset="0%" stop-color="#112f4e"/>
+      <stop offset="100%" stop-color="#173b61"/>
     </linearGradient>
   </defs>
 
-  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="900" height="900" fill="url(#paper)"/>
 
-  <circle cx="400" cy="410" r="290" fill="none" stroke="#0e2f4d" stroke-width="10"/>
-  <circle cx="400" cy="410" r="260" fill="none" stroke="#0e2f4d" stroke-width="4" opacity="0.8"/>
+  <g transform="translate(90 60)">
+    <circle cx="360" cy="360" r="285" fill="none" stroke="url(#navy)" stroke-width="10"/>
+    <circle cx="360" cy="360" r="255" fill="none" stroke="url(#navy)" stroke-width="4" opacity="0.9"/>
 
-  <g transform="translate(160 120)">
-    <g>
-      <path d="M80 230 L170 170 L260 230" fill="none" stroke="#0e2f4d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M120 230 L120 315 L220 315 L220 230" fill="none" stroke="#0e2f4d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M155 230 L155 280 L185 280 L185 230" fill="none" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M165 315 L165 340 L174 340 L174 315" fill="#0e2f4d"/>
+    <g transform="translate(120 80)">
+      <g transform="translate(60 2)">
+        <path d="M120 60 L220 0 L320 60" fill="none" stroke="url(#navy)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="none" stroke="url(#navy)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M160 60 L160 170 L280 170 L280 60"/>
+          <path d="M205 60 L205 120 L235 120 L235 60"/>
+        </g>
+      </g>
+
+      <g transform="translate(35 0)">
+        <path d="M260 120 L330 55 L402 120" fill="none" stroke="url(#navy)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M275 120 L275 170 L359 170 L359 120" fill="none" stroke="url(#navy)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M315 120 L315 150 L318 150 L318 120" fill="url(#navy)"/>
+      </g>
+
+      <g transform="translate(120 30)">
+        <path d="M18 45 L92 12 L166 45" fill="none" stroke="url(#navy)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M48 45 L48 105 L116 105 L116 45" fill="none" stroke="url(#navy)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <g transform="translate(212 20)">
+        <path d="M25 105 L110 20 L196 105" fill="none" stroke="url(#navy)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M62 105 L62 158 L170 158 L170 105" fill="none" stroke="url(#navy)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+
+      <g transform="translate(130 30)">
+        <path d="M38 0 L122 0 A84 84 0 0 1 206 84 L206 150 L34 150 L34 84 A84 84 0 0 1 118 0 Z" fill="none" stroke="url(#navy)" stroke-width="12"/>
+        <path d="M88 34 L120 0 L154 34" fill="none" stroke="url(#navy)" stroke-width="12" stroke-linecap="round"/>
+      </g>
+
+      <g transform="translate(30 160)">
+        <path d="M65 0 A90 90 0 0 1 145 90 L145 110 L30 110 L30 90 A90 90 0 0 1 111 0" fill="none" stroke="url(#navy)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M80 20 L112 20 A60 60 0 0 1 172 80 L172 110 L20 110 L20 80 A60 60 0 0 1 80 20 Z" fill="none" stroke="url(#navy)" stroke-width="8" opacity="0.9"/>
+      </g>
     </g>
 
-    <g transform="translate(190 10)">
-      <path d="M0 150 Q70 40 140 150" fill="none" stroke="#0e2f4d" stroke-width="11" stroke-linecap="round"/>
-      <path d="M25 150 L25 205 L115 205 L115 150" fill="none" stroke="#0e2f4d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M54 150 L54 180 L88 180 L88 150" fill="none" stroke="#0e2f4d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
+    <g transform="translate(120 245)">
+      <text x="240" y="68" font-size="72" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="middle" fill="url(#navy)" letter-spacing="2">MARY</text>
+      <text x="240" y="130" font-size="54" font-family="Georgia, 'Times New Roman', serif" font-weight="700" text-anchor="middle" fill="url(#navy)" letter-spacing="2">EMPREITEIRA</text>
 
-    <g transform="translate(100 40)">
-      <path d="M70 20 L120 0 L170 20" fill="none" stroke="#0e2f4d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M85 20 L85 85 L155 85 L155 20" fill="none" stroke="#0e2f4d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M140 30 L180 0 L220 30" fill="none" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round"/>
-    </g>
+      <g transform="translate(52 170)">
+        <path d="M0 20 Q110 0 215 20" fill="none" stroke="url(#navy)" stroke-width="4" stroke-dasharray="10 12"/>
+        <g transform="translate(20 0)">
+          <path d="M0 25 L18 0 L36 25" fill="none" stroke="url(#navy)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 25 L10 50 L28 50 L28 25" fill="none" stroke="url(#navy)" stroke-width="3"/>
+        </g>
+        <g transform="translate(130 0)">
+          <path d="M0 25 L18 0 L36 25" fill="none" stroke="url(#navy)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 25 L10 50 L28 50 L28 25" fill="none" stroke="url(#navy)" stroke-width="3"/>
+        </g>
+        <g transform="translate(245 0)">
+          <path d="M0 25 L18 0 L36 25" fill="none" stroke="url(#navy)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 25 L10 50 L28 50 L28 25" fill="none" stroke="url(#navy)" stroke-width="3"/>
+        </g>
+      </g>
 
-    <g transform="translate(390 30)">
-      <path d="M0 120 L52 70 L104 120" fill="none" stroke="#0e2f4d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M16 120 L16 175 L88 175 L88 120" fill="none" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M52 120 L52 158" fill="none" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round"/>
-    </g>
-
-    <g transform="translate(100 50)">
-      <path d="M145 0 L242 0 C260 0 275 12 275 32 L275 118 L118 118 L118 32 C118 12 133 0 145 0 Z" fill="none" stroke="#0e2f4d" stroke-width="10"/>
-      <path d="M85 34 L138 0 L186 34" fill="none" stroke="#0e2f4d" stroke-width="12" stroke-linecap="round"/>
-      <path d="M154 32 L154 74" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round"/>
-      <path d="M228 32 L228 74" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round"/>
-      <path d="M145 74 L195 74" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round"/>
-      <path d="M112 118 L80 154 L270 154 L238 118" fill="none" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-
-    <g transform="translate(170 10)">
-      <path d="M130 40 L170 0 L210 40" fill="none" stroke="#0e2f4d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M145 55 L145 118 L185 118 L185 55" fill="none" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M100 100 L216 100" stroke="#0e2f4d" stroke-width="8" stroke-linecap="round"/>
-    </g>
-  </g>
-
-  <g transform="translate(180 425)">
-    <g transform="translate(0 20)">
-      <text x="220" y="80" text-anchor="middle" font-size="54" font-weight="700" fill="#0e2f4d" font-family="Georgia, 'Times New Roman', serif" letter-spacing="2">MARY</text>
-      <text x="220" y="145" text-anchor="middle" font-size="46" font-weight="700" fill="#0e2f4d" font-family="Georgia, 'Times New Roman', serif" letter-spacing="2">EMPREITEIRA</text>
-    </g>
-
-    <g transform="translate(0 0)">
-      <path d="M95 165 Q220 110 345 165" fill="none" stroke="#0e2f4d" stroke-width="4" stroke-dasharray="8 12"/>
-      <path d="M110 170 L120 210 L145 210 L155 170" fill="none" stroke="#0e2f4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M145 170 L155 210 L180 210 L190 170" fill="none" stroke="#0e2f4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M190 170 L200 210 L225 210 L235 170" fill="none" stroke="#0e2f4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M235 170 L245 210 L270 210 L280 170" fill="none" stroke="#0e2f4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M280 170 L290 210 L315 210 L325 170" fill="none" stroke="#0e2f4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-
-    <g transform="translate(10 195)" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
-      <text x="210" y="30" font-size="22" fill="#0e2f4d" font-weight="700">Rejunte, Limpeza &amp; Acabamento</text>
-      <text x="210" y="68" font-size="17" fill="#0e2f4d" opacity="0.85">Serviços de Qualidade</text>
-      <text x="210" y="96" font-size="15" fill="#0e2f4d" opacity="0.8">Brasileiro DF e entorno</text>
+      <g transform="translate(38 250)" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" fill="url(#navy)">
+        <text x="202" y="28" font-size="24" font-weight="700">Rejunte, Limpeza &amp; Acabamento</text>
+        <text x="202" y="64" font-size="19" opacity="0.9">Serviços de Qualidade</text>
+        <text x="202" y="94" font-size="16" opacity="0.8">Brasileiro DF e entorno</text>
+      </g>
     </g>
   </g>
 </svg>
